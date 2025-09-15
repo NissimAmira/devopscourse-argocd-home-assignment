@@ -1,0 +1,13 @@
+architecture: standalone
+primary:
+  persistence:
+    enabled: true
+    size: 5Gi
+    storageClass: standard
+service:
+  type: ClusterIP
+
+auth:
+  username: admin
+  password: Nissim1234!   # temp: dev only
+  database: postgresql-db
